@@ -1,0 +1,11 @@
+[discord]
+  token = "MTI1OTk5NDExMTgwNTc1MTQxNw.GXAa40.cKkHD8B8dFFW3s1r7y476yKSt-n2hVYYiE88kw"  # Bot token
+  status = "Music Bot | !help"  # Bot status message
+  prefix = "!"  # Command prefix
+  purgetime = 60  # Message time to live (in seconds)
+  playstatus = false  # Set to 'true' if this bot runs on one server only
+  guildID = "1046747896311197718"  # Guild ID
+  channelID = "1046747897431081013"  # Voice channel ID
+
+[youtube]
+  token = "AIzaSyDurO0t9p3Csh96or0jZuNunlvYmDMH15U"
