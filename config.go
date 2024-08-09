@@ -19,9 +19,20 @@ type YouTubeConfig struct {
     Token string
 }
 
+type VKConfig struct {
+    Token string
+}
+
+type PathsConfig struct {
+    YoutubeDL string `toml:"youtube-dl"`
+    FFmpeg    string `toml:"ffmpeg"`
+}
+
 type Config struct {
     Discord DiscordConfig
     YouTube YouTubeConfig
+    VK      VKConfig
+    Paths   PathsConfig
 }
 
 func LoadConfig(file string) (*Config, error) {
@@ -39,4 +50,3 @@ func LoadConfig(file string) (*Config, error) {
 
     return config, nil
 }
-
