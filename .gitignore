@@ -1,0 +1,29 @@
+# Configuration files
+bot.toml
+.env
+
+# Temporary files
+*.pcm
+*.wav
+*.mp3
+audio_*
+vk_audio_*
+
+# Runtime and build
+/build
+/dist
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project-specific
+tmp/
+.devenv*
